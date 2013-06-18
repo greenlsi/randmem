@@ -1,5 +1,5 @@
-Random Memory Benchmark Readme file
-===================================
+Random Memory Benchmark Readme
+==============================
 
 RandMem is a random memory benchmark originally developed by Roy Longbottom
 (http://www.roylongbottom.org.uk/). This benchmark has been modified and some
@@ -18,17 +18,17 @@ Installation instructions
 To install the benchmark, just run the makefile:
 
 For solaris systems
-    $ make solaris
+```$ make solaris```
 
 For 32 bit systems
-    $ make 32bit 
+```$ make 32bit```
 
 For 64bit systems (default)
-    $ make all
+```$ make all```
 
 Once compiled, just run ./randmem.out
 If you need some help:
-    $ ./randmem.out --help
+```$ ./randmem.out --help```
 
 More about RandMem
 ------------------
@@ -36,9 +36,9 @@ More about RandMem
 RandMem can be used to stress the system memory in some different ways. 
 The benchmark executes with the following parameters:
 
-* pattern: test to run, can be 'serial' or 'random'
-* data: type of data to run, can be 'integer' or 'intfp'
-* access: type of access to memory, can be 'r' or 'rw'
+* pattern: test to run, can be `serial` or `random`
+* data: type of data to run, can be `integer` or `intfp`
+* access: type of access to memory, can be `r` or `rw`
 * memsize: memory size in GB to use. Note that the maximum amount of per-process
   memory in a Linux/Solaris server is 2GB
 * blocksize: maximum size of each memory block (in KB). This indicates the
