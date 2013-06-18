@@ -27,6 +27,15 @@ http://www.roylongbottom.org.uk/sse3dnow%20results.htm
 INSTRUCTIONS
 ------------
 
+To compile benchmark for 32-bit systems type:
+$ make 32bit
+
+For 64-bit systems:
+$ make all
+
+To clean installation:
+$ make clean
+
 With Terminal pointing to the directory containing the execution 
 files, each benchmark program can be run using the usual 
 $ ./program_name command
