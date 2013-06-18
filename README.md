@@ -28,17 +28,17 @@ INSTRUCTIONS
 ------------
 
 To compile benchmark for 32-bit systems type:
-$ make 32bit
+```$ make 32bit```
 
 For 64-bit systems:
-$ make all
+```$ make all```
 
 To clean installation:
-$ make clean
+```$ make clean```
 
 With Terminal pointing to the directory containing the execution 
 files, each benchmark program can be run using the usual 
-$ ./program_name command
+```$ ./program_name command```
 
 Results will be displayed and saved in programID.txt files.
 
