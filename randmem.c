@@ -229,8 +229,8 @@ int main( int argc, char *argv[] )
     parseArguments(argc, argv);
 
     // GetDetails function
-    /*printf("\n");*/
-    /*getDetails();*/
+    printf("\n");
+    getDetails();
     
     
     // Get limits of memory
